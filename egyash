@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Egypt - Land of Pharaohs</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f1ea;
+  color: #222;
+}
+
+header {
+  background: #c19a3f;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  color: #a67c00;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🇪🇬 Egypt - Land of Pharaohs</h1>
+  <p>One of the world’s oldest and most fascinating civilizations</p>
+</header>
+
+<section>
+
+<div class="card">
+  <h2>🏺 Ancient Egypt</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Kheops-Pyramid.jpg">
+  <p>
+    Ancient Egypt was one of the greatest civilizations in history, lasting over 3,000 years.
+    It was known for pyramids, pharaohs, hieroglyphics, and advanced engineering.
+  </p>
+</div>
+
+<div class="card">
+  <h2>🧱 The Great Pyramids of Giza</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg">
+  <p>
+    The Great Pyramid is one of the Seven Wonders of the Ancient World.
+    Built around 2560 BC, it still stands today as a symbol of human achievement.
+  </p>
+</div>
+
+<div class="card grid">
+
+  <div>
+    <h2>👑 Pharaohs</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Tutankhamun_mask.jpg">
+    <p>
+      Pharaohs were the rulers of ancient Egypt, believed to be divine kings.
+      Famous pharaohs include Tutankhamun, Ramses II, and Cleopatra.
+    </p>
+  </div>
+
+  <div>
+    <h2>📜 Hieroglyphics</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Egyptian_hieroglyphs.jpg">
+    <p>
+      Egyptians developed one of the earliest writing systems using symbols called hieroglyphics,
+      carved into temples and tombs.
+    </p>
+  </div>
+
+</div>
+
+<div class="card">
+  <h2>🌍 Modern Egypt</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Cairo_skyline.jpg">
+  <p>
+    Today, Egypt is a modern country with a rich cultural heritage, combining ancient history
+    with cities like Cairo and Alexandria.
+  </p>
+</div>
+
+</section>
+
+<footer>
+  <p>Made for GitHub Pages • Egypt History Website</p>
+</footer>
+
+</body>
+</html>
